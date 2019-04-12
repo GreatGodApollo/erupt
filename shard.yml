@@ -1,0 +1,19 @@
+name: erupt
+version: 0.1.0
+
+description: |
+  A Crystal logging library that comes with 14 different loggers
+
+authors:
+  - Brett Bender <brett@brettbender.me>
+
+crystal: 0.27.2
+
+license: MIT
+
+dependencies:
+  chalk_box:
+    github: azukiapp/crystal-chalk-box
+  emoji:
+    github: veelenga/emoji.cr
+    branch: master
