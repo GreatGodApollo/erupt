@@ -1,6 +1,6 @@
-require "../src/*"
+require "../src/erupt"
 
-erupt = Erupt::Erupt.new(STDOUT, Logger::DEBUG)
+erupt = Erupt::Erupt.new(STDOUT, Logger::DEBUG, "Erupt")
 
 erupt.await("Awaiting Something")
 erupt.complete("Completed Something")
