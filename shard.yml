@@ -1,5 +1,5 @@
 name: erupt
-version: 0.3.0
+version: 0.4.0
 
 description: |
   A Crystal logging library that comes with 14 different loggers

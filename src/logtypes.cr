@@ -6,21 +6,21 @@ module Erupt
 
     # Messages for log types
     MESSAGES = {
-      "await"    => "AWAIT #{Emoji.emojize(":clock3:")} :",
-      "complete" => "COMPLETE #{Emoji.emojize(":heavy_check_mark:")}:",
-      "debug"    => "DEBUG #{Emoji.emojize(":black_circle:")}:",
-      "error"    => "ERROR #{Emoji.emojize(":x:")}:",
-      "fatal"    => "FATAL #{Emoji.emojize(":x:")}:",
-      "fav"      => "FAV #{Emoji.emojize(":heart:")}:",
-      "info"     => "INFO #{Emoji.emojize(":information_source:")}:",
-      "pause"    => "PAUSE #{Emoji.emojize(":black_large_square:")}:",
-      "pending"  => "PENDING #{Emoji.emojize(":black_large_square:")}:",
-      "star"     => "STAR #{Emoji.emojize(":star:")}:",
-      "start"    => "START #{Emoji.emojize(":arrow_forward:")}:",
-      "success"  => "SUCCESS #{Emoji.emojize(":heavy_check_mark:")}:",
-      "wait"     => "WAIT #{Emoji.emojize(":clock3:")} :",
-      "warn"     => "WARN #{Emoji.emojize(":warning:")}:",
-      "watch"    => "WATCH #{Emoji.emojize(":clock3:")} :",
+      "await"    => "AWAIT #{Emoji.emojize(":clock3:")} ",
+      "complete" => "COMPLETE #{Emoji.emojize(":heavy_check_mark:")} ",
+      "debug"    => "DEBUG #{Emoji.emojize(":black_circle:")} ",
+      "error"    => "ERROR #{Emoji.emojize(":x:")} ",
+      "fatal"    => "FATAL #{Emoji.emojize(":x:")} ",
+      "fav"      => "FAV #{Emoji.emojize(":heart:")} ",
+      "info"     => "INFO #{Emoji.emojize(":information_source:")} ",
+      "pause"    => "PAUSE #{Emoji.emojize(":black_large_square:")} ",
+      "pending"  => "PENDING #{Emoji.emojize(":black_large_square:")} ",
+      "star"     => "STAR #{Emoji.emojize(":star:")} ",
+      "start"    => "START #{Emoji.emojize(":arrow_forward:")} ",
+      "success"  => "SUCCESS #{Emoji.emojize(":heavy_check_mark:")} ",
+      "wait"     => "WAIT #{Emoji.emojize(":clock3:")} ",
+      "warn"     => "WARN #{Emoji.emojize(":warning:")} ",
+      "watch"    => "WATCH #{Emoji.emojize(":clock3:")} ",
     } of String => String
 
     # Colors for log types
