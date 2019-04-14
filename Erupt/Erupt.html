@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Crystal Docs 0.27.2">
+
+
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="../js/doc.js"></script>
+<script type="text/javascript">
+  CrystalDoc.base_path = "../";
+</script>
+
+  <meta id="repository-name" content="github.com/GreatGodApollo/erupt">
+  <title>Erupt::Erupt - github.com/GreatGodApollo/erupt</title>
+</head>
+<body>
+
+<div class="sidebar">
+  <div class="sidebar-header">
+    <div class="search-box">
+      <input type="search" class="search-input" placeholder="Search..." spellcheck="false" aria-label="Search">
+    </div>
+
+    <div class="repository-links">
+      <a href="../index.html">README</a>
+    </div>
+  </div>
+
+  <div class="search-results" class="hidden">
+    <ul class="search-list"></ul>
+  </div>
+
+  <div class="types-list">
+    <ul>
+  
+  <li class="parent open current" data-id="github.com/GreatGodApollo/erupt/Erupt" data-name="erupt">
+      <a href="../Erupt.html">Erupt</a>
+      
+        <ul>
+  
+  <li class=" current" data-id="github.com/GreatGodApollo/erupt/Erupt/Erupt" data-name="erupt::erupt">
+      <a href="../Erupt/Erupt.html">Erupt</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+  </div>
+</div>
+
+
+<div class="main-content">
+<h1 class="type-name">
+
+  <span class="kind">class</span> Erupt::Erupt
+
+</h1>
+
+
+  <ul class="superclass-hierarchy"><li class="superclass"><a href="../Erupt/Erupt.html">Erupt::Erupt</a></li><li class="superclass">Reference</li><li class="superclass">Object</li></ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2>Defined in:</h2>
+  
+    
+      <a href="https://github.com/GreatGodApollo/erupt/blob/f990a033f121e7c37f87b4b1aff487f935739db3/src/erupt.cr#L12" target="_blank">
+        erupt.cr
+      </a>
+    
+    <br/>
+  
+
+
+
+
+
+  <h2>Constructors</h2>
+  <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#new%28target%3AIO%3F%2Clevel%3ALogger%3A%3ASeverity%2Cprogram_name%3AString%3D%26quot%3B%26quot%3B%2Ccolor_enabled%3ABool%3Dtrue%29-class-method" class="signature"><strong>.new</strong>(target : IO?, level : Logger::Severity, program_name : String = <span class="s">&quot;&quot;</span>, color_enabled : Bool = <span class="n">true</span>)</a>
+        
+      </li>
+    
+  </ul>
+
+
+
+
+
+  <h2>Instance Method Summary</h2>
+  <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#await%28message%29-instance-method" class="signature"><strong>#await</strong>(message)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#complete%28message%29-instance-method" class="signature"><strong>#complete</strong>(message)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#debug%28message%29-instance-method" class="signature"><strong>#debug</strong>(message)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#error%28message%29-instance-method" class="signature"><strong>#error</strong>(message)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#fatal%28message%29-instance-method" class="signature"><strong>#fatal</strong>(message)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#fav%28message%29-instance-method" class="signature"><strong>#fav</strong>(message)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#info%28message%29-instance-method" class="signature"><strong>#info</strong>(message)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#pause%28message%29-instance-method" class="signature"><strong>#pause</strong>(message)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#pending%28message%29-instance-method" class="signature"><strong>#pending</strong>(message)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#star%28message%29-instance-method" class="signature"><strong>#star</strong>(message)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#start%28message%29-instance-method" class="signature"><strong>#start</strong>(message)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#success%28message%29-instance-method" class="signature"><strong>#success</strong>(message)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#wait%28message%29-instance-method" class="signature"><strong>#wait</strong>(message)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#warn%28message%29-instance-method" class="signature"><strong>#warn</strong>(message)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#watch%28message%29-instance-method" class="signature"><strong>#watch</strong>(message)</a>
+        
+      </li>
+    
+  </ul>
+
+
+
+
+
+<div class="methods-inherited">
+  
+    
+
+
+    
+
+
+    
+
+
+  
+    
+
+
+    
+
+
+    
+
+
+  
+</div>
+
+
+  <h2>Constructor Detail</h2>
+  
+    <div class="entry-detail" id="new(target:IO?,level:Logger::Severity,program_name:String=&amp;quot;&amp;quot;,color_enabled:Bool=true)-class-method">
+      <div class="signature">
+        
+        def self.<strong>new</strong>(target : IO?, level : Logger::Severity, program_name : String = <span class="s">&quot;&quot;</span>, color_enabled : Bool = <span class="n">true</span>)
+
+        <a class="method-permalink" href="#new%28target%3AIO%3F%2Clevel%3ALogger%3A%3ASeverity%2Cprogram_name%3AString%3D%26quot%3B%26quot%3B%2Ccolor_enabled%3ABool%3Dtrue%29-class-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/GreatGodApollo/erupt/blob/f990a033f121e7c37f87b4b1aff487f935739db3/src/erupt.cr#L13" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+
+
+
+
+
+  <h2>Instance Method Detail</h2>
+  
+    <div class="entry-detail" id="await(message)-instance-method">
+      <div class="signature">
+        
+        def <strong>await</strong>(message)
+
+        <a class="method-permalink" href="#await%28message%29-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="complete(message)-instance-method">
+      <div class="signature">
+        
+        def <strong>complete</strong>(message)
+
+        <a class="method-permalink" href="#complete%28message%29-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="debug(message)-instance-method">
+      <div class="signature">
+        
+        def <strong>debug</strong>(message)
+
+        <a class="method-permalink" href="#debug%28message%29-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="error(message)-instance-method">
+      <div class="signature">
+        
+        def <strong>error</strong>(message)
+
+        <a class="method-permalink" href="#error%28message%29-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="fatal(message)-instance-method">
+      <div class="signature">
+        
+        def <strong>fatal</strong>(message)
+
+        <a class="method-permalink" href="#fatal%28message%29-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="fav(message)-instance-method">
+      <div class="signature">
+        
+        def <strong>fav</strong>(message)
+
+        <a class="method-permalink" href="#fav%28message%29-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="info(message)-instance-method">
+      <div class="signature">
+        
+        def <strong>info</strong>(message)
+
+        <a class="method-permalink" href="#info%28message%29-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="pause(message)-instance-method">
+      <div class="signature">
+        
+        def <strong>pause</strong>(message)
+
+        <a class="method-permalink" href="#pause%28message%29-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="pending(message)-instance-method">
+      <div class="signature">
+        
+        def <strong>pending</strong>(message)
+
+        <a class="method-permalink" href="#pending%28message%29-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="star(message)-instance-method">
+      <div class="signature">
+        
+        def <strong>star</strong>(message)
+
+        <a class="method-permalink" href="#star%28message%29-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="start(message)-instance-method">
+      <div class="signature">
+        
+        def <strong>start</strong>(message)
+
+        <a class="method-permalink" href="#start%28message%29-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="success(message)-instance-method">
+      <div class="signature">
+        
+        def <strong>success</strong>(message)
+
+        <a class="method-permalink" href="#success%28message%29-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="wait(message)-instance-method">
+      <div class="signature">
+        
+        def <strong>wait</strong>(message)
+
+        <a class="method-permalink" href="#wait%28message%29-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="warn(message)-instance-method">
+      <div class="signature">
+        
+        def <strong>warn</strong>(message)
+
+        <a class="method-permalink" href="#warn%28message%29-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="watch(message)-instance-method">
+      <div class="signature">
+        
+        def <strong>watch</strong>(message)
+
+        <a class="method-permalink" href="#watch%28message%29-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+
+
+
+
+</div>
+
+</body>
+</html>
