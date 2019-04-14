@@ -5,7 +5,8 @@ require "./logtypes"
 
 # TODO: Write documentation for Erupt
 module Erupt
-  VERSION = "0.2.0"
+  VERSION = "0.3.0"
+  # :nodoc:
   CHALK   = ChalkBox::Base.new
 
   class Erupt
