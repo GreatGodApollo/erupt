@@ -1,4 +1,4 @@
-# Erupt [![GitHub release](https://img.shields.io/github/release/greatgodapollo/erupt.svg)](https://github.com/greatgodapollo/erupt/releases) [![Build Status](https://travis-ci.org/<YOUR-GITHUB-USERNAME>/<YOUR-REPOSITORY-NAME>.svg?branch=master)](https://travis-ci.org/<YOUR-GITHUB-USERNAME>/<YOUR-REPOSITORY-NAME>)
+# Erupt [![GitHub release](https://img.shields.io/github/release/greatgodapollo/erupt.svg)](https://github.com/greatgodapollo/erupt/releases) [![Build Status](https://travis-ci.org/greatgodapollo/erupt.svg?branch=master)](https://travis-ci.org/greatgodapollo/erupt)
 
 
 
