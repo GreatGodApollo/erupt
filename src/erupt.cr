@@ -7,7 +7,7 @@ require "./logtypes"
 module Erupt
   VERSION = "0.3.0"
   # :nodoc:
-  CHALK   = ChalkBox::Base.new
+  CHALK = ChalkBox::Base.new
 
   class Erupt
     def initialize(target : IO?, level : Logger::Severity, program_name : String = "", @color_enabled : Bool = true)
