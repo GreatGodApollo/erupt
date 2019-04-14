@@ -1,4 +1,5 @@
-# Erupt [![GitHub release](https://img.shields.io/github/release/greatgodapollo/erupt.svg)](https://github.com/greatgodapollo/erupt/releases)
+# Erupt [![GitHub release](https://img.shields.io/github/release/greatgodapollo/erupt.svg)](https://github.com/greatgodapollo/erupt/releases) [![Build Status](https://travis-ci.org/<YOUR-GITHUB-USERNAME>/<YOUR-REPOSITORY-NAME>.svg?branch=master)](https://travis-ci.org/<YOUR-GITHUB-USERNAME>/<YOUR-REPOSITORY-NAME>)
+
 
 
 A Crystal logging library that comes with 14 different log types. 
@@ -7,11 +8,11 @@ A Crystal logging library that comes with 14 different log types.
 
 1. Add the dependency to your `shard.yml`:
 
-   ```yaml
-   dependencies:
-     erupt:
-       github: greatgodapollo/erupt
-   ```
+```yaml
+dependencies:
+  erupt:
+    github: greatgodapollo/erupt
+```
 
 2. Run `shards install`
 
@@ -25,7 +26,7 @@ Check out the examples in `/examples/`
 
 ## Contributing
 
-1. Fork it (<https://github.com/greatgodapollo/erupt/fork>)
+1. Fork it ([https://github.com/greatgodapollo/erupt/fork](https://github.com/greatgodapollo/erupt/fork)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

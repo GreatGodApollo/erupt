@@ -1,7 +1,9 @@
 require "../src/erupt"
 
+# Create a new Erupt with STDOUT as the output, DEBUG as the log level, and Erupt as the program name
 erupt = Erupt::Erupt.new(STDOUT, Logger::DEBUG, "Erupt")
 
+# Examples of all log types
 erupt.await("Awaiting Something")
 erupt.complete("Completed Something")
 erupt.error("Erroring Something")
