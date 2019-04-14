@@ -1,6 +1,7 @@
-# Erupt
+# Erupt [![GitHub release](https://img.shields.io/github/release/greatgodapollo/erupt.svg)](https://github.com/greatgodapollo/erupt/releases)
 
-A Crystal logging library that comes with 14 different loggers. 
+
+A Crystal logging library that comes with 14 different log types. 
 
 ## Installation
 
@@ -21,10 +22,6 @@ require "erupt"
 ```
 
 Check out the examples in `/examples/`
-
-## Development
-
-TODO: Write development instructions here
 
 ## Contributing
 
